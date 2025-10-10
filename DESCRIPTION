@@ -13,7 +13,7 @@ Authors@R: c(person(given = "Felipe Antonio",
                         email = "fabiancorrea@msn.com",
                         comment = c(ORCID = "https://orcid.org/0000-0002-6193-1242")))
 Description: The ewarsmx package provides climatic and epidemiological data for the implementation of EWARS-CSD for dengue in Mexico.
-     EWARS-CSD is short of Early Warning and Response System for climate-sensitive diseases (EWARS-csd) .
+     [EWARS-CSD](https://tdr.who.int/newsroom/news/item/21-09-2023-early-warning-and-response-system-for-dengue-outbreaks-in-mexico) is short of Early Warning and Response System for climate-sensitive diseases (EWARS-csd) .
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
