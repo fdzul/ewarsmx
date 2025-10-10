@@ -1,0 +1,57 @@
+---
+title: "denmex dataset"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{denmex dataset}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+denmex provides the dengue data for each municipality in Mexico.  The time series covers the period from January 1, 2020, to Octuber 22, 2025. The 2025 dataset is updated weekly on Tuesday afternoons.
+
+
+## Load the ewarsmx package
+```{r setup}
+library(ewarsmx)
+```
+
+
+## load the denmex dataset 
+
+```{r load_climex}
+data("denmex", package ="ewarsmx")
+```
+
+## explore the dataset
+
+head and tail
+```{r head}
+head(denmex)
+```
+
+```{r tail}
+head(denmex)
+```
+
+```{r}
+dplyr::glimpse(denmex)
+```
+
+
+
+```{r}
+gtExtras::gt_plt_summary(denmex)
+```
+
+```{r}
+skimr::skim(denmex)
+```
+
+

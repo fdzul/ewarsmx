@@ -41,3 +41,7 @@ data("climex",package ="ewarsmx")
 ## denmex
 
 load denmex dataset
+
+``` r
+data("denmex",package ="ewarsmx")
+```
