@@ -30,3 +30,16 @@
 #' @source \url{https://www.gob.mx/salud/documentos/datos-abiertos-152127}
 #' @details climex provides the daily dengue data for each municipality in Mexico, downloaded from the [datos abiertod DGE](https://www.gob.mx/salud/documentos/datos-abiertos-152127). The time series covers the period from January 1, 2020, to Octuber 22, 2025 (two weeks delate).
 "denmex"
+#' popmex
+#'
+#' popmex: population dataset for each municipality in Mexico
+#'
+#' @format A data.frame object with 2469 rows and 3 variables:
+#' \describe{
+#'   \item{CVEGEO}{id of municipality}
+#'   \item{nom_mun}{name of municipality}
+#'   \item{population}{population}
+#'   ...
+#' }
+#' @details popmex provides population data for each municipality in Mexico, downloaded from the [INEGI]().
+"popmex"
