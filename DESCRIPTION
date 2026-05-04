@@ -12,6 +12,17 @@ Authors@R: c(person(given = "Felipe Antonio",
                         role = c("ctb"),
                         email = "icjoseortiz.lsp@gmail.com",
                         comment = c(ORCID = "https://orcid.org/0000-0002-3169-5506")),
+                person(given = "Cecilia",
+                        family = "Cruz López",
+                        role = c("aut"),
+                        email = "ceccruz@uv.mx",
+                        comment = c(ORCID = "//orcid.org/0000-0002-9156-5669")
+                        ),
+              person(given = "Emmanuel",
+                        family = "Morales García",
+                        role = c("aut"),
+                        email = "emmorales@uv.mx",
+                        comment = c(ORCID = "orcid.org/0000-0002-6837-9227")),
                  person(given = "Fabian",
                         family = "Correa-Morales",
                         role = c("ctb", "aut"),
@@ -25,7 +36,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     R (>= 3.5)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Suggests: 
     knitr,
     rmarkdown
